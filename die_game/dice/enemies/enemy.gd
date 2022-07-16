@@ -8,6 +8,11 @@ extends Node2D
 #3 after player act they (think) act
 
 
+var directions = {"right": Vector2.RIGHT,
+			"left": Vector2.LEFT,
+			"up": Vector2.UP,
+			"down": Vector2.DOWN}
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -23,4 +28,6 @@ func side_stats_gen():
 
 
 func act():
+	position.y = position.y + 1
 	print("sex")
+

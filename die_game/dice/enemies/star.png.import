@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/star.png-096b4eb63bf22f720d5815fdfd9f6a58.stex"
+path="res://.import/star.png-06c9c0451cbb65880edafcbd02d10293.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dice/player/star.png"
-dest_files=[ "res://.import/star.png-096b4eb63bf22f720d5815fdfd9f6a58.stex" ]
+source_file="res://dice/enemies/star.png"
+dest_files=[ "res://.import/star.png-06c9c0451cbb65880edafcbd02d10293.stex" ]
 
 [params]
 
