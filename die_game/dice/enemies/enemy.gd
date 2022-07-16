@@ -22,9 +22,6 @@ func _ready():
 #func _process(delta):
 #	pass
 
-func side_stats_gen():
-	# see heartbeast tuto on inventory
-	pass
 
 
 func act():

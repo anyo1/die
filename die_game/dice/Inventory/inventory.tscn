@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://dice/Inventory/art/slots.tscn" type="PackedScene" id=1]
+[ext_resource path="res://dice/Inventory/GridContainer.gd" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 4.0
+margin_right = 373.0
+margin_bottom = 287.0
+columns = 3
+script = ExtResource( 2 )
+
+[node name="slots" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 120.0
+margin_bottom = 139.0
+
+[node name="slots2" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 124.0
+margin_right = 244.0
+margin_bottom = 139.0
+
+[node name="slots3" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 248.0
+margin_right = 368.0
+margin_bottom = 139.0
+
+[node name="slots4" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 143.0
+margin_right = 120.0
+margin_bottom = 282.0
+
+[node name="slots5" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 124.0
+margin_top = 143.0
+margin_right = 244.0
+margin_bottom = 282.0
+
+[node name="slots6" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 248.0
+margin_top = 143.0
+margin_right = 368.0
+margin_bottom = 282.0

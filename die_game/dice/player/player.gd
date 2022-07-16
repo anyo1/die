@@ -3,6 +3,7 @@ extends "res://dice/die_parent.gd"
 onready var Grid = get_parent()
 var turn_manager = load("res://Manager/turn_mana.tres")
 
+signal dir(dir)
 
 var tile_size = 64
 var inputs = {"right": Vector2.RIGHT,
@@ -22,6 +23,9 @@ func _unhandled_input(event):
 			print(turn_manager.turn)
 			turn_manager.turn = turn_manager.enemy_turn
 			move(dir)
+			print(dir)
+			emit_signal("dir" , dir)
+			
 
 
 func move(dir):
