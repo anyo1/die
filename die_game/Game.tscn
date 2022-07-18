@@ -25,3 +25,4 @@ position = Vector2( 551, 310 )
 position = Vector2( 253, 310 )
 
 [node name="Node2D" parent="." instance=ExtResource( 5 )]
+visible = false
